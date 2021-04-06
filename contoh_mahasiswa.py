@@ -23,16 +23,23 @@ sp = input("Prodi: ")
 sn = input("Nim :")
 la = input("Jenis Kelamin :")
 
+#Cek atribut
+
+
 print(setattr(mhs1,"Nama",name))
 print(setattr(mhs1,"Prodi",sp))
 print(setattr(mhs1,"Nim",sn))
-print(setattr(mhs1,"Jenis Kelamin",la))
+print(setattr(mhs1,"Jenis_Kelamin",la))
+
+print("b")
 
 print(hasattr(mhs1,"Nama"))
 print(hasattr(mhs1,"Prodi"))
 print(hasattr(mhs1,"Nim"))
-print(hasattr(mhs1,"Jenis Kelamin"))
+print(hasattr(mhs1,"Jenis_Kelamin"))
 
+print("c")
 print(getattr(mhs1,"jenis"))
 
-print(delattr(mhs1,'jenis'))
+print("d")
+print(delattr(mhs1,"jenis"))
