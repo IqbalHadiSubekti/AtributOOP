@@ -16,7 +16,7 @@ class mahasiswa():
 		print("Jenis Kelamin :",self.jenis)
 		print()
 
-mhs1 = mahasiswa("Iqbal","Sistem Informasi","201702782","Laki-laki")
+mhs1 = mahasiswa(" "," "," "," ")
 
 name = input("Nama: ")
 sp = input("Prodi: ")
